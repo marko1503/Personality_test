@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F795C911D0B9E04034675E3 /* Pods_PersonalityTest_PersonalityTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A440CCF103FEFE8A3F068 /* Pods_PersonalityTest_PersonalityTestTests.framework */; };
 		59A1F6191FA6A45200D786FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A1F6181FA6A45200D786FF /* AppDelegate.swift */; };
 		59A1F61B1FA6A45200D786FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A1F61A1FA6A45200D786FF /* ViewController.swift */; };
 		59A1F61E1FA6A45200D786FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A1F61C1FA6A45200D786FF /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		59A1F6231FA6A45200D786FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A1F6211FA6A45200D786FF /* LaunchScreen.storyboard */; };
 		59A1F62E1FA6A45200D786FF /* PersonalityTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A1F62D1FA6A45200D786FF /* PersonalityTestTests.swift */; };
 		59A1F6391FA6A45200D786FF /* PersonalityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A1F6381FA6A45200D786FF /* PersonalityTestUITests.swift */; };
+		A49B3E9D5580ABB2DD740FEC /* Pods_PersonalityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202DE87BB7A80C0B9D87D62F /* Pods_PersonalityTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202DE87BB7A80C0B9D87D62F /* Pods_PersonalityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A440CCF103FEFE8A3F068 /* Pods_PersonalityTest_PersonalityTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalityTest_PersonalityTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A1F6151FA6A45200D786FF /* PersonalityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A1F6181FA6A45200D786FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59A1F61A1FA6A45200D786FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		59A1F6341FA6A45200D786FF /* PersonalityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A1F6381FA6A45200D786FF /* PersonalityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestUITests.swift; sourceTree = "<group>"; };
 		59A1F63A1FA6A45200D786FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DC920F77D7EF22BCB17513 /* Pods-PersonalityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalityTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalityTest/Pods-PersonalityTest.release.xcconfig"; sourceTree = "<group>"; };
+		D852B65C4262F1B582936A44 /* Pods-PersonalityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalityTest/Pods-PersonalityTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E7FD51927122F1E3C60A4DA0 /* Pods-PersonalityTest-PersonalityTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalityTest-PersonalityTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalityTest-PersonalityTestTests/Pods-PersonalityTest-PersonalityTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE42F708078AA945AF3F6AC6 /* Pods-PersonalityTest-PersonalityTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalityTest-PersonalityTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalityTest-PersonalityTestTests/Pods-PersonalityTest-PersonalityTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49B3E9D5580ABB2DD740FEC /* Pods_PersonalityTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F795C911D0B9E04034675E3 /* Pods_PersonalityTest_PersonalityTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 				59A1F62C1FA6A45200D786FF /* PersonalityTestTests */,
 				59A1F6371FA6A45200D786FF /* PersonalityTestUITests */,
 				59A1F6161FA6A45200D786FF /* Products */,
+				B8AE03E0E597ABBE328647F3 /* Pods */,
+				AF68FBDAA741F022398A703C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +137,26 @@
 			path = PersonalityTestUITests;
 			sourceTree = "<group>";
 		};
+		AF68FBDAA741F022398A703C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202DE87BB7A80C0B9D87D62F /* Pods_PersonalityTest.framework */,
+				3B1A440CCF103FEFE8A3F068 /* Pods_PersonalityTest_PersonalityTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8AE03E0E597ABBE328647F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D852B65C4262F1B582936A44 /* Pods-PersonalityTest.debug.xcconfig */,
+				81DC920F77D7EF22BCB17513 /* Pods-PersonalityTest.release.xcconfig */,
+				EE42F708078AA945AF3F6AC6 /* Pods-PersonalityTest-PersonalityTestTests.debug.xcconfig */,
+				E7FD51927122F1E3C60A4DA0 /* Pods-PersonalityTest-PersonalityTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59A1F63D1FA6A45200D786FF /* Build configuration list for PBXNativeTarget "PersonalityTest" */;
 			buildPhases = (
+				247DE1E51CF48B9F8DEAF7CA /* [CP] Check Pods Manifest.lock */,
 				59A1F6111FA6A45200D786FF /* Sources */,
 				59A1F6121FA6A45200D786FF /* Frameworks */,
 				59A1F6131FA6A45200D786FF /* Resources */,
+				DBD0F16C48797E75C4241DA4 /* [CP] Embed Pods Frameworks */,
+				284C0F23FABEA77DE16C92EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59A1F6401FA6A45200D786FF /* Build configuration list for PBXNativeTarget "PersonalityTestTests" */;
 			buildPhases = (
+				949774C73A42B3EC8AFD8076 /* [CP] Check Pods Manifest.lock */,
 				59A1F6251FA6A45200D786FF /* Sources */,
 				59A1F6261FA6A45200D786FF /* Frameworks */,
 				59A1F6271FA6A45200D786FF /* Resources */,
+				066A2E14F01660B4099B3DE5 /* [CP] Embed Pods Frameworks */,
+				D8BE20F926C6BA4E65485E3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +292,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		066A2E14F01660B4099B3DE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PersonalityTest-PersonalityTestTests/Pods-PersonalityTest-PersonalityTestTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalityTest-PersonalityTestTests/Pods-PersonalityTest-PersonalityTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		247DE1E51CF48B9F8DEAF7CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonalityTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284C0F23FABEA77DE16C92EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalityTest/Pods-PersonalityTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		949774C73A42B3EC8AFD8076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonalityTest-PersonalityTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BE20F926C6BA4E65485E3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalityTest-PersonalityTestTests/Pods-PersonalityTest-PersonalityTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD0F16C48797E75C4241DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PersonalityTest/Pods-PersonalityTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalityTest/Pods-PersonalityTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59A1F6111FA6A45200D786FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -318,6 +461,7 @@
 		59A1F63B1FA6A45200D786FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -375,6 +519,7 @@
 		59A1F63C1FA6A45200D786FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -424,7 +569,9 @@
 		};
 		59A1F63E1FA6A45200D786FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D852B65C4262F1B582936A44 /* Pods-PersonalityTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PersonalityTest/Info.plist;
@@ -439,7 +586,9 @@
 		};
 		59A1F63F1FA6A45200D786FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DC920F77D7EF22BCB17513 /* Pods-PersonalityTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PersonalityTest/Info.plist;
@@ -454,6 +603,7 @@
 		};
 		59A1F6411FA6A45200D786FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE42F708078AA945AF3F6AC6 /* Pods-PersonalityTest-PersonalityTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +620,7 @@
 		};
 		59A1F6421FA6A45200D786FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FD51927122F1E3C60A4DA0 /* Pods-PersonalityTest-PersonalityTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
