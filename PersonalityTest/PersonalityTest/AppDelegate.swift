@@ -13,9 +13,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    fileprivate(set) var rootViewController: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // setup rootViewController
+        let viewController = ViewController()
+        let rootViewController = UINavigationController(rootViewController: viewController)
+        self.rootViewController = rootViewController
+
+        // setup window
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = rootViewController
+        self.window = window
+
+        window.makeKeyAndVisible()
+        
         return true
     }
 
